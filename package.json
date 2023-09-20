@@ -1,23 +1,32 @@
 {
-  "name": "tauri-next-mobile",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/node": "20.6.3",
-    "@types/react": "18.2.22",
-    "@types/react-dom": "18.2.7",
-    "autoprefixer": "10.4.15",
-    "next": "13.5.1",
-    "postcss": "8.4.30",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3",
-    "typescript": "5.2.2"
-  }
+    "name": "tauri-next-mobile",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "export": "next export",
+        "start": "next start",
+        "tauri": "tauri",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@tauri-apps/api": "^2.0.0-alpha.4",
+        "@tauri-apps/plugin-window": "^2.0.0-alpha.0",
+        "@tauri-apps/plugin-shell": "^2.0.0-alpha.0",
+        "@types/node": "20.6.3",
+        "@types/react": "18.2.22",
+        "@types/react-dom": "18.2.7",
+        "autoprefixer": "10.4.15",
+        "next": "13.5.1",
+        "postcss": "8.4.30",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "tailwindcss": "3.3.3",
+        "typescript": "5.2.2"
+    },
+    "devDependencies": {
+        "@tauri-apps/cli": "^1.4.0",
+        "internal-ip": "^8.0.0"
+    }
 }
