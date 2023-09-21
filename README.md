@@ -8,7 +8,7 @@ First make sure you have the [prerequisites](https://next--tauri.netlify.app/nex
 
 When you set the environment variables (at least on Windows) make sure to `restart` your computer.
 
-You will also need to use `npm`, as the project is set up that way. Alternatively you can set it up to use pnpm or yarn, but you'll need to change the configuration in several places, and regenerate the src-tauri/gen files (delete and run `cargo tauri android init`). I have not done so, so I can not advise how to do it. It took quite a bit to set it up as it is.
+You will also need to use `npm`, as the project is set up that way. Alternatively you can set it up to use pnpm or yarn, but you'll need to change the configuration in several places, and regenerate the src-tauri/gen files (delete and run `cargo tauri android init`). 
 
 ## Running the project
 
