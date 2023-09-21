@@ -1,6 +1,6 @@
 This is a [Tauri/Next.js](https://next--tauri.netlify.app/next/mobile/) mobile template project.
 
-Tauri mobile is currently in alpha, and the repo is meant to help you skip configuration debuging, and get you started experimenting with mobile on Android.
+Tauri mobile is currently in alpha, and the repo is meant to help you skip configuration debuging, and get you started experimenting with Tauri on Android.
 
 You will need to have [Android studio](https://developer.android.com/studio?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw3s6DJhPCGSh90ZnGYBmYwmS6GRNs_76NItVfyx55X4SCfFoI0jgL4aAlvQEALw_wcB&gclsrc=aw.ds) installed, as well as create at least one emulator.
 
