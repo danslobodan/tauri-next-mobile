@@ -1,4 +1,4 @@
-This is a [Tauri/Next.js](https://nextjs.org/](https://next--tauri.netlify.app/next/mobile/)) template project.
+This is a [Tauri/Next.js]([https://nextjs.org/](https://next--tauri.netlify.app/next/mobile/)) template project.
 
 Tauri mobile is currently in alpha, and the repo is meant to help you skip configuration debuging, and get you started experimenting with mobile on Android.
 
