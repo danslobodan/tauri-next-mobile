@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Tauri/Next.js](https://nextjs.org/](https://next--tauri.netlify.app/next/mobile/)) template project.
 
-## Getting Started
+Tauri mobile is currently in alpha, and the repo is meant to help you skip configuration debuging, and get you started experimenting with mobile on Android.
 
-First, run the development server:
+You will need to have [Android studio](https://developer.android.com/studio?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw3s6DJhPCGSh90ZnGYBmYwmS6GRNs_76NItVfyx55X4SCfFoI0jgL4aAlvQEALw_wcB&gclsrc=aw.ds) installed, as well as create at least one emulator.
+
+You will also need to use npm, as the project is set up that way. Alternatively you can set it up to use pnpm or yarn, but you'll need to change the configuration in several places, and regenerate the src-tauri/gen files (delete and run `cargo tauri android init`).
+
+To run the project:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun run dev
+cargo tauri android dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run tauri dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Enjoy!
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to contact me if you would like to contribute or suggest some changes.
